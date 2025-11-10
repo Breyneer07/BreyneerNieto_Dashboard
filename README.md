@@ -1,7 +1,7 @@
 # University Dashboard — Admissions, Retention & Satisfaction
 
 **Autor:** Breyneer Nieto Cardeño  
-**Materia:** Data Visualization and Dashboard Deployment  
+**Materia:** DATA MINING  
 
 Este proyecto muestra un dashboard interactivo en **Streamlit** que visualiza datos de admisiones, tasas de retención y niveles de satisfacción estudiantil.  
 Incluye filtros por año y periodo académico (Spring/Fall) y tres visualizaciones dinámicas.
@@ -15,3 +15,4 @@ Incluye filtros por año y periodo académico (Spring/Fall) y tres visualizacion
 1. Instala dependencias:
    ```bash
    pip install -r requirements.txt
+
