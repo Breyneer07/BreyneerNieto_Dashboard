@@ -11,7 +11,8 @@ import os
 st.set_page_config(page_title="University Dashboard", layout="wide")
 
 # --- RUTA COMPLETA DEL ARCHIVO CSV ---
-DATA_PATH = r"C:\Users\ADMIN\Downloads\Teller 3corte\university_student_data.csv"
+import os
+DATA_PATH = os.path.join(os.path.dirname(__file__), "university_student_data.csv")
 
 # --- VERIFICACIÓN DE EXISTENCIA DEL ARCHIVO ---
 st.sidebar.header("📂 Verificación de datos")
@@ -81,3 +82,4 @@ st.altair_chart(chart3, use_container_width=True)
 # --- MENSAJE FINAL ---
 st.markdown("---")
 st.info("✅ Dashboard ejecutado correctamente. Si ves las gráficas arriba, los datos se cargaron sin problemas.")
+
